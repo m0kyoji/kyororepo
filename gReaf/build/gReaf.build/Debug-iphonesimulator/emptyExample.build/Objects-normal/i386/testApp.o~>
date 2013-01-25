@@ -1,0 +1,9 @@
+/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/testApp.mm: In member function 'virtual void testApp::setup()':
+/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/testApp.mm:27: error: 'rSwitch' was not declared in this scope
+/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/testApp.mm: In member function 'virtual void testApp::update()':
+/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/testApp.mm:58: error: 'rSwitch' was not declared in this scope
+/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/testApp.mm:59: error: 'aft' was not declared in this scope
+/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/testApp.mm:61: error: 'class GReaf' has no member named 'spot'
+/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/testApp.mm:73: error: 'rSwitch' was not declared in this scope
+/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/testApp.mm: In member function 'virtual void testApp::touchDown(ofTouchEventArgs&)':
+/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/testApp.mm:111: error: 'rSwitch' was not declared in this scope

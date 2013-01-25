@@ -1,0 +1,2147 @@
+TemptyExample
+v7
+r0
+t380614514.574408
+cCheck dependencies
+cCpResource build/Debug-iphoneos/emptyExample.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/Info.plist ofxiphone-Info.plist
+cCopyPNGFile /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/Default.png bin/data/Default.png
+cCopyPNGFile /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/Icon.png bin/data/Icon.png
+cCopyPlistFile /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/ofxiphone-Info.plist ofxiphone-Info.plist
+cCpResource build/Debug-iphoneos/emptyExample.app/Project.xcconfig Project.xcconfig
+cCpResource build/Debug-iphoneos/emptyExample.app/CoreOF.xcconfig ../../../libs/openFrameworksCompiled/project/iphone/CoreOF.xcconfig
+cProcessPCH++ /var/folders/jX/jX4pxiBXHm400ER2w+S8WU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-cjryudbpxcjsqugqsefflitjqxcg/iPhone_Prefix.pch.gch iPhone_Prefix.pch normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+cProcessPCH++ /var/folders/jX/jX4pxiBXHm400ER2w+S8WU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-dxvldonulnztbtchqiwszsdqdlmx/iPhone_Prefix.pch.gch iPhone_Prefix.pch normal armv6 c++ com.apple.compilers.gcc.4_2
+cProcessPCH++ /var/folders/jX/jX4pxiBXHm400ER2w+S8WU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-gaosvrmwctprukfmcehoiuaobfgu/iPhone_Prefix.pch.gch iPhone_Prefix.pch normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+cProcessPCH++ /var/folders/jX/jX4pxiBXHm400ER2w+S8WU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-dzpomasomsienaflecgnupebugra/iPhone_Prefix.pch.gch iPhone_Prefix.pch normal armv7 c++ com.apple.compilers.gcc.4_2
+cCompileC build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv6/main.o /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/main.mm normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv6/testApp.o /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/testApp.mm normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv6/GReaf.o /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/GReaf.cpp normal armv6 c++ com.apple.compilers.gcc.4_2
+cLd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv6/emptyExample normal armv6
+cCompileC build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv7/main.o /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/main.mm normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv7/testApp.o /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/testApp.mm normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv7/GReaf.o /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/GReaf.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
+cLd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv7/emptyExample normal armv7
+cCreateUniversalBinary /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/emptyExample normal "armv6 armv7"
+cGenerateDSYMFile /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app.dSYM /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/emptyExample
+cPhaseScriptExecution スクリプトを実行 /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Script-9255DD331112741900D6945E.sh
+cProcessProductPackaging "/Users/hrd_zemi/Library/MobileDevice/Provisioning Profiles/9E05909B-80DC-44D8-94B7-8E4E54884DEA.mobileprovision" /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/embedded.mobileprovision
+cTouch /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample.xcent
+cCodeSign /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app
+
+N/Applications/of_preRelease_v007_iphone/addons/ofxAccelerometer/src/ofxAccelerometer.h
+c000000004D31A15E0000000000001903
+t1295098206
+s6403
+i"ofTypes.h"
+i"ofPoint.h"
+
+N/Applications/of_preRelease_v007_iphone/addons/ofxMultiTouch/src/ofxMultiTouch.h
+c000000004D31A15E0000000000000C4C
+t1295098206
+s3148
+i"ofMain.h"
+i"ofxMultiTouchListener.h"
+
+N/Applications/of_preRelease_v007_iphone/addons/ofxMultiTouch/src/ofxMultiTouchListener.h
+c000000004DB23EBA0000000000000BB7
+t1303527098
+s2999
+i"ofEvents.h"
+
+N/Applications/of_preRelease_v007_iphone/addons/ofxiPhone/ofxiPhone.h
+c000000004DB23EBA0000000000000840
+t1303527098
+s2112
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"ofxAccelerometer.h"
+i"ofxiPhoneAlerts.h"
+i"ofxiPhoneApp.h"
+
+N/Applications/of_preRelease_v007_iphone/addons/ofxiPhone/ofxiPhoneExtras.h
+c000000004DAFBBCC0000000000002329
+t1303362508
+s9001
+i<UIKit/UIKit.h>
+i"ofMain.h"
+i"ofxiPhone.h"
+i"ofAppiPhoneWindow.h"
+i"ofxiPhoneAppDelegate.h"
+i"EAGLView.h"
+i"ofxiPhoneKeyboard.h"
+i"ofxiPhoneCoreLocation.h"
+i"ofxiPhoneImagePicker.h"
+i"ofxiPhoneMapKit.h"
+i<sys/sysctl.h>
+
+N/Applications/of_preRelease_v007_iphone/addons/ofxiPhone/src/EAGLView.h
+c000000004D2E6CB400000000000009EE
+t1294888116
+s2542
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+i"ESRenderer.h"
+i"ofxiPhone.h"
+
+N/Applications/of_preRelease_v007_iphone/addons/ofxiPhone/src/ESRenderer.h
+c000000004D44A738000000000000018E
+t1296344888
+s398
+i<QuartzCore/QuartzCore.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+
+N/Applications/of_preRelease_v007_iphone/addons/ofxiPhone/src/SoundEngine.h
+c000000004D32411A0000000000004003
+t1295139098
+s16387
+i<CoreAudio/CoreAudioTypes.h>
+i<AudioToolbox/AudioToolbox.h>
+i<OpenAL/al.h>
+i<OpenAL/alc.h>
+
+N/Applications/of_preRelease_v007_iphone/addons/ofxiPhone/src/ofAppiPhoneWindow.h
+c000000004E0EA9C80000000000000EA8
+t1309583816
+s3752
+i"ofAppBaseWindow.h"
+i"glu.h"
+
+N/Applications/of_preRelease_v007_iphone/addons/ofxiPhone/src/ofxOpenALSoundPlayer.h
+c000000004D54BEE80000000000000F14
+t1297399528
+s3860
+i"SoundEngine.h"
+i<CoreAudio/CoreAudioTypes.h>
+i"ofBaseSoundPlayer.h"
+i"ofUtils.h"
+i"ofPoint.h"
+i"ofTypes.h"
+
+N/Applications/of_preRelease_v007_iphone/addons/ofxiPhone/src/ofxiPhoneAlerts.h
+c000000004C3E97DA0000000000000E48
+t1279170522
+s3656
+i"ofxiPhoneAlertsListener.h"
+i<list>
+
+N/Applications/of_preRelease_v007_iphone/addons/ofxiPhone/src/ofxiPhoneAlertsListener.h
+c000000004C3E97DA0000000000000862
+t1279170522
+s2146
+i"ofMain.h"
+
+N/Applications/of_preRelease_v007_iphone/addons/ofxiPhone/src/ofxiPhoneApp.h
+c000000004DB23EBA0000000000000544
+t1303527098
+s1348
+i"ofMain.h"
+i"ofEvents.h"
+i"ofxiPhoneAlerts.h"
+i"ofxMultiTouch.h"
+
+N/Applications/of_preRelease_v007_iphone/addons/ofxiPhone/src/ofxiPhoneAppDelegate.h
+c000000004D54DE2A000000000000095C
+t1297407530
+s2396
+i<UIKit/UIKit.h>
+i"EAGLView.h"
+i"ofAppiPhoneWindow.h"
+
+N/Applications/of_preRelease_v007_iphone/addons/ofxiPhone/src/ofxiPhoneCoreLocation.h
+c000000004D54BEE800000000000008A6
+t1297399528
+s2214
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i"ofMain.h"
+
+N/Applications/of_preRelease_v007_iphone/addons/ofxiPhone/src/ofxiPhoneImagePicker.h
+c000000004D32411A0000000000000C99
+t1295139098
+s3225
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+i"ofMain.h"
+i<iostream>
+i<Availability.h>
+
+N/Applications/of_preRelease_v007_iphone/addons/ofxiPhone/src/ofxiPhoneKeyboard.h
+c000000004E0D31D2000000000000068E
+t1309487570
+s1678
+i<UIKit/UIKit.h>
+i"ofMain.h"
+i"ofxiPhoneExtras.h"
+
+N/Applications/of_preRelease_v007_iphone/addons/ofxiPhone/src/ofxiPhoneMapKit.h
+c000000004DB23EBA0000000000001634
+t1303527098
+s5684
+i<Availability.h>
+i"ofMain.h"
+i<MapKit/MapKit.h>
+i"ofxiPhoneMapKitListener.h"
+i<list>
+
+N/Applications/of_preRelease_v007_iphone/addons/ofxiPhone/src/ofxiPhoneMapKitListener.h
+c000000004DB23EBA00000000000008AC
+t1303527098
+s2220
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/../../../libs/openFrameworksCompiled/project/iphone/CoreOF.xcconfig
+c000000004E22626400000000000008B9
+t1310876260
+s2233
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/Project.xcconfig
+c000000004E267A4C00000000000001C7
+t1311144524
+s455
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/bin/data/Default.png
+c000000004E267A4C00000000000014C6
+t1311144524
+s5318
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/bin/data/Icon.png
+c000000004E267A4C0000000000000410
+t1311144524
+s1040
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app
+t1358921714
+s646
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app.dSYM
+t1358921658
+s102
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/CoreOF.xcconfig
+t1358834408
+s2233
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/Default.png
+t1358921714
+s5318
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/Icon.png
+t1358921714
+s1040
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/Info.plist
+t1358834407
+s971
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/PkgInfo
+t1358834407
+s8
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/Project.xcconfig
+t1358834408
+s455
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/ResourceRules.plist
+t1358834407
+s485
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/embedded.mobileprovision
+t1358921373
+s7586
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/emptyExample
+t1358921656
+s11181008
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/ofxiphone-Info.plist
+t1358834408
+s603
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv6/GReaf.o
+t1358921651
+s455704
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv6/emptyExample
+t1358921654
+s5879092
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv6/emptyExample.LinkFileList
+c0000000050FE2AE7000000000000019F
+t1358834407
+s415
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv6/main.o
+t1358921649
+s664424
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv6/testApp.o
+t1358921649
+s714984
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv7/GReaf.o
+t1358921654
+s455692
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv7/emptyExample
+t1358921656
+s5230916
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv7/emptyExample.LinkFileList
+c0000000050FE2AE7000000000000019F
+t1358834407
+s415
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv7/main.o
+t1358921651
+s664416
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv7/testApp.o
+t1358921652
+s714968
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Script-9255DD331112741900D6945E.sh
+c0000000050FE2AE70000000000000041
+t1358834407
+s65
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample.xcent
+t1358834423
+s398
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/iPhone_Prefix.pch
+c000000004E267A4C00000000000000B5
+t1311144524
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/ofxiphone-Info.plist
+c000000004E267A4C0000000000000428
+t1311144524
+s1064
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/GReaf.cpp
+c0000000050FF7E1600000000000011C5
+t1358921238
+s4549
+i"GReaf.h"
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/GReaf.h
+c0000000050FF7FAE0000000000000368
+t1358921646
+s872
+i"ofMain.h"
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/main.mm
+c0000000050FDEAEE000000000000009E
+t1358818030
+s158
+i"ofMain.h"
+i"testApp.h"
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/testApp.h
+c0000000050FF7F9200000000000002D8
+t1358921618
+s728
+i"ofMain.h"
+i"ofxiPhone.h"
+i"ofxiPhoneExtras.h"
+i"GReaf.h"
+
+N/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/testApp.mm
+c0000000050FF7ECB0000000000000E43
+t1358921419
+s3651
+i"testApp.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/cairo/include/cairo/cairo-deprecated.h
+c000000004D54C94800000000000021FA
+t1297402184
+s8698
+
+N/Applications/of_preRelease_v007_iphone/libs/cairo/include/cairo/cairo-features.h
+c000000004D54C948000000000000031D
+t1297402184
+s797
+
+N/Applications/of_preRelease_v007_iphone/libs/cairo/include/cairo/cairo-pdf.h
+c000000004D54C9480000000000000C24
+t1297402184
+s3108
+i"cairo.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/cairo/include/cairo/cairo-svg.h
+c000000004D54C9480000000000000ADD
+t1297402184
+s2781
+i"cairo.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/cairo/include/cairo/cairo-version.h
+c000000004D54C9480000000000000094
+t1297402184
+s148
+
+N/Applications/of_preRelease_v007_iphone/libs/cairo/include/cairo/cairo.h
+c000000004D54C9480000000000016BCE
+t1297402184
+s93134
+i"cairo-version.h"
+i"cairo-features.h"
+i"cairo-deprecated.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/glew/include/GL/glew.h
+c000000004D44A73A00000000000C1916
+t1296344890
+s792854
+i<stddef.h>
+i<inttypes.h>
+i<stdint.h>
+i<inttypes.h>
+i<OpenGL/glu.h>
+i<GL/glu.h>
+
+N/Applications/of_preRelease_v007_iphone/libs/glu/include_iphone/glu.h
+c000000004BAC144A0000000000001F99
+t1269568586
+s8089
+i<OpenGLES/ES1/gl.h>
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/3d/of3dUtils.h
+c000000004DBA4734000000000000002B
+t1304053556
+s43
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/3d/ofCamera.h
+c000000004DF1E0D40000000000000858
+t1307697364
+s2136
+i"ofRectangle.h"
+i"ofAppRunner.h"
+i"ofNode.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/3d/ofEasyCam.h
+c000000004D83AA94000000000000053C
+t1300474516
+s1340
+i"ofCamera.h"
+i"ofEvents.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/3d/ofMesh.h
+c000000004E15290600000000000010DD
+t1310009606
+s4317
+i"ofVec3f.h"
+i"ofVec2f.h"
+i"ofColor.h"
+i"ofUtils.h"
+i"ofConstants.h"
+i"ofGLUtils.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/3d/ofNode.h
+c000000004D58C3AC000000000000143C
+t1297662892
+s5180
+i"ofVectorMath.h"
+i"of3dUtils.h"
+i"ofGraphics.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/app/ofAppBaseWindow.h
+c000000004E0E74F00000000000000590
+t1309570288
+s1424
+i"ofPoint.h"
+i"ofTypes.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/app/ofAppRunner.h
+c000000004DD6FD18000000000000075D
+t1305935128
+s1885
+i"ofConstants.h"
+i"ofPoint.h"
+i"ofRectangle.h"
+i"ofTypes.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/app/ofBaseApp.h
+c000000004DD6FD180000000000000377
+t1305935128
+s887
+i"ofPoint.h"
+i"ofEvents.h"
+i"ofBaseTypes.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/communication/ofArduino.h
+c000000004D83AA940000000000004200
+t1300474516
+s16896
+i<list>
+i<vector>
+i<string>
+i<iostream>
+i"ofEvents.h"
+i"ofSerial.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/communication/ofSerial.h
+c000000004DB23EBA0000000000000DA9
+t1303527098
+s3497
+i"ofConstants.h"
+i"ofTypes.h"
+i<termios.h>
+i<winbase.h>
+i<tchar.h>
+i<iostream>
+i<string.h>
+i<setupapi.h>
+i<regstr.h>
+i<winioctl.h>
+i<initguid.h>
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/events/ofEventUtils.h
+c000000004DD9D0560000000000000DAD
+t1306120278
+s3501
+i"ofConstants.h"
+i"Poco/FIFOEvent.h"
+i"Poco/Delegate.h"
+i<stdio.h>
+i<stdlib.h>
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/events/ofEvents.h
+c000000004DAFBA420000000000001B97
+t1303362114
+s7063
+i"ofConstants.h"
+i"ofPoint.h"
+i"ofEventUtils.h"
+i"ofxEventUtils.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/gl/ofFbo.h
+c000000004E2785060000000000000E23
+t1311212806
+s3619
+i"ofTexture.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/gl/ofGLRenderer.h
+c000000004E1908D00000000000001109
+t1310263504
+s4361
+i"ofBaseTypes.h"
+i"ofPolyline.h"
+i<stack>
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/gl/ofGLUtils.h
+c000000004E0D49480000000000000B79
+t1309493576
+s2937
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/gl/ofLight.h
+c000000004E0EB376000000000000084C
+t1309586294
+s2124
+i"ofNode.h"
+i"ofColor.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/gl/ofMaterial.h
+c000000004E0EB3760000000000000555
+t1309586294
+s1365
+i"ofColor.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/gl/ofShader.h
+c000000004E0DA5100000000000000F82
+t1309517072
+s3970
+i"ofConstants.h"
+i"ofBaseTypes.h"
+i"ofTexture.h"
+i<map>
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/gl/ofTexture.h
+c000000004E25984400000000000010D0
+t1311086660
+s4304
+i"ofPoint.h"
+i"ofRectangle.h"
+i"ofBaseTypes.h"
+i"ofConstants.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/gl/ofVbo.h
+c000000004E0EB3760000000000000A19
+t1309586294
+s2585
+i"ofConstants.h"
+i"ofVec3f.h"
+i"ofColor.h"
+i"ofUtils.h"
+i"ofMesh.h"
+i"ofGLUtils.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/gl/ofVboMesh.h
+c000000004DF1E0D40000000000000114
+t1307697364
+s276
+i"ofMesh.h"
+i"ofVbo.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/graphics/ofCairoRenderer.h
+c000000004E250D6000000000000012BF
+t1311051104
+s4799
+i"cairo-features.h"
+i"cairo-pdf.h"
+i"cairo-svg.h"
+i"cairo.h"
+i<deque>
+i<stack>
+i"ofMatrix4x4.h"
+i"ofBaseTypes.h"
+i"ofPath.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/graphics/ofGraphics.h
+c000000004E1289820000000000001D95
+t1309837698
+s7573
+i"ofConstants.h"
+i"ofColor.h"
+i"ofPoint.h"
+i"ofMatrix4x4.h"
+i"ofRectangle.h"
+i"ofTypes.h"
+i"ofBaseTypes.h"
+i"ofGLRenderer.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/graphics/ofImage.h
+c000000004E1529080000000000002014
+t1310009608
+s8212
+i"ofFileUtils.h"
+i"ofTexture.h"
+i"ofPixels.h"
+i"ofBaseTypes.h"
+i"ofConstants.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/graphics/ofPath.h
+c000000004E1908D0000000000000115A
+t1310263504
+s4442
+i"ofConstants.h"
+i"ofPoint.h"
+i"ofColor.h"
+i"ofPolyline.h"
+i"ofBaseTypes.h"
+i"ofMesh.h"
+i"ofTessellator.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/graphics/ofPixels.h
+c000000004E156BF400000000000012C3
+t1310026740
+s4803
+i"ofConstants.h"
+i"ofUtils.h"
+i"ofColor.h"
+i"ofMath.h"
+i<limits>
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/graphics/ofPolyline.h
+c000000004E1908D00000000000000E9D
+t1310263504
+s3741
+i"ofPoint.h"
+i"ofConstants.h"
+i<deque>
+i"ofRectangle.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/graphics/ofRendererCollection.h
+c000000004E1908D000000000000027C6
+t1310263504
+s10182
+i"ofBaseTypes.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/graphics/ofTessellator.h
+c000000004DD9D09A0000000000000459
+t1306120346
+s1113
+i"ofConstants.h"
+i"ofMesh.h"
+i"ofTypes.h"
+i"ofPolyline.h"
+i"tesselator.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/graphics/ofTrueTypeFont.h
+c000000004E22631C00000000000009F5
+t1310876444
+s2549
+i<vector>
+i"ofPoint.h"
+i"ofRectangle.h"
+i"ofConstants.h"
+i"ofPath.h"
+i"ofTexture.h"
+i"ofMesh.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/math/ofMath.h
+c000000004E1908D00000000000000B3D
+t1310263504
+s2877
+i"ofPoint.h"
+i"ofConstants.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/math/ofMatrix3x3.h
+c000000004D54BEE80000000000000A4C
+t1297399528
+s2636
+i"ofConstants.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/math/ofMatrix4x4.h
+c000000004D83AA940000000000006D64
+t1300474516
+s28004
+i"ofVec3f.h"
+i"ofVec4f.h"
+i"ofQuaternion.h"
+i"ofConstants.h"
+i<cmath>
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/math/ofQuaternion.h
+c000000004D83AA9400000000000033BD
+t1300474516
+s13245
+i"ofConstants.h"
+i"ofVec3f.h"
+i"ofVec4f.h"
+i<cmath>
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/math/ofVec2f.h
+c000000004D9178EC000000000000407D
+t1301379308
+s16509
+i"ofConstants.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/math/ofVec3f.h
+c000000004D83AA9400000000000061A8
+t1300474516
+s25000
+i"ofVec2f.h"
+i"ofVec4f.h"
+i"ofConstants.h"
+i<cmath>
+i<iostream>
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/math/ofVec4f.h
+c000000004D54BEE80000000000002EC3
+t1297399528
+s11971
+i"ofConstants.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/math/ofVectorMath.h
+c000000004D2E6CB40000000000000099
+t1294888116
+s153
+i"ofVec2f.h"
+i"ofVec3f.h"
+i"ofVec4f.h"
+i"ofMatrix3x3.h"
+i"ofMatrix4x4.h"
+i"ofQuaternion.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/ofMain.h
+c000000004E2785060000000000000643
+t1311212806
+s1603
+i"ofConstants.h"
+i"ofFileUtils.h"
+i"ofLog.h"
+i"ofSystemUtils.h"
+i"ofThread.h"
+i"ofURLFileLoader.h"
+i"ofUtils.h"
+i"ofBaseTypes.h"
+i"ofTypes.h"
+i"ofColor.h"
+i"ofPoint.h"
+i"ofRectangle.h"
+i"ofMath.h"
+i"ofVectorMath.h"
+i"ofSerial.h"
+i"ofArduino.h"
+i"ofFbo.h"
+i"ofGLRenderer.h"
+i"ofGLUtils.h"
+i"ofLight.h"
+i"ofMaterial.h"
+i"ofShader.h"
+i"ofTexture.h"
+i"ofVbo.h"
+i"ofVboMesh.h"
+i"ofCairoRenderer.h"
+i"ofGraphics.h"
+i"ofImage.h"
+i"ofPath.h"
+i"ofPixels.h"
+i"ofPolyline.h"
+i"ofRendererCollection.h"
+i"ofTessellator.h"
+i"ofTrueTypeFont.h"
+i"ofBaseApp.h"
+i"ofAppRunner.h"
+i"ofSoundStream.h"
+i"ofSoundPlayer.h"
+i"ofVideoGrabber.h"
+i"ofVideoPlayer.h"
+i"ofEvents.h"
+i"of3dUtils.h"
+i"ofCamera.h"
+i"ofEasyCam.h"
+i"ofMesh.h"
+i"ofNode.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/sound/ofBaseSoundPlayer.h
+c000000004D54BEE80000000000000366
+t1297399528
+s870
+i"ofConstants.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/sound/ofBaseSoundStream.h
+c000000004D854F1200000000000002D4
+t1300582162
+s724
+i"ofConstants.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/sound/ofFmodSoundPlayer.h
+c000000004E27850600000000000006B8
+t1311212806
+s1720
+i"ofConstants.h"
+i"ofBaseSoundPlayer.h"
+i"fmod.h"
+i"fmod_errors.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/sound/ofOpenALSoundPlayer.h
+c000000004E2785060000000000000E5E
+t1311212806
+s3678
+i"ofConstants.h"
+i"ofBaseSoundPlayer.h"
+i"ofEvents.h"
+i"ofThread.h"
+i<OpenAL/al.h>
+i<OpenAL/alc.h>
+i<AL/al.h>
+i<AL/alc.h>
+i"kiss_fft.h"
+i"kiss_fftr.h"
+i<sndfile.h>
+i<mpg123.h>
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/sound/ofPASoundStream.h
+c000000004E250D60000000000000052D
+t1311051104
+s1325
+i"ofConstants.h"
+i"ofBaseSoundStream.h"
+i"ofTypes.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/sound/ofRtAudioSoundStream.h
+c000000004E27850600000000000004A6
+t1311212806
+s1190
+i"ofConstants.h"
+i"ofBaseSoundStream.h"
+i"ofTypes.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/sound/ofSoundPlayer.h
+c000000004E2785060000000000000637
+t1311212806
+s1591
+i"ofConstants.h"
+i"ofTypes.h"
+i"ofBaseTypes.h"
+i"ofBaseSoundPlayer.h"
+i"ofQuicktimeSoundPlayer.h"
+i"ofFmodSoundPlayer.h"
+i"ofOpenALSoundPlayer.h"
+i"ofxOpenALSoundPlayer.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/sound/ofSoundStream.h
+c000000004E27A2D000000000000006DB
+t1311220432
+s1755
+i"ofConstants.h"
+i"ofBaseTypes.h"
+i"ofBaseApp.h"
+i"ofTypes.h"
+i"ofBaseSoundStream.h"
+i"ofRtAudioSoundStream.h"
+i"ofPASoundStream.h"
+i"ofxAndroidSoundStream.h"
+i"ofxiPhoneSoundStream.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/sound/ofxiPhoneSoundStream.h
+c000000004E27A2D00000000000000382
+t1311220432
+s898
+i"ofConstants.h"
+i"ofBaseSoundStream.h"
+i"ofTypes.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/types/ofBaseTypes.h
+c000000004E27AAA00000000000002F01
+t1311222432
+s12033
+i"ofPoint.h"
+i"ofRectangle.h"
+i"ofConstants.h"
+i"ofColor.h"
+i"ofMesh.h"
+i"ofPixels.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/types/ofColor.h
+c000000004E0EB37600000000000013FD
+t1309586294
+s5117
+i<limits>
+i"ofMath.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/types/ofPoint.h
+c000000004D83AA94000000000000003D
+t1300474516
+s61
+i"ofVec3f.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/types/ofRectangle.h
+c000000004DAFB79E0000000000000454
+t1303361438
+s1108
+i"ofPoint.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/types/ofTypes.h
+c000000004E0EB3AA0000000000000D27
+t1309586346
+s3367
+i"ofConstants.h"
+i"ofColor.h"
+i<memory>
+i<tr1/memory>
+i"Poco/Mutex.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/utils/ofConstants.h
+c000000004E27A2D000000000000034C6
+t1311220432
+s13510
+i<TargetConditionals.h>
+i<windows.h>
+i"GL\glew.h"
+i"GL\wglew.h"
+i"glu.h"
+i<unistd.h>
+i"GL/glew.h"
+i<OpenGL/gl.h>
+i<ApplicationServices/ApplicationServices.h>
+i<unistd.h>
+i<GL/glew.h>
+i<GL/gl.h>
+i<GL/glx.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<unistd.h>
+i<GLES/gl.h>
+i<GLES/glext.h>
+i"glu.h"
+i"tesselator.h"
+i<cstdlib>
+i<cstdio>
+i<cstdarg>
+i<cmath>
+i<ctime>
+i<cstdlib>
+i<string>
+i<iostream>
+i<vector>
+i<cstring>
+i<sstream>
+i<iomanip>
+i<fstream>
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/utils/ofFileUtils.h
+c000000004E250D600000000000001D56
+t1311051104
+s7510
+i"ofConstants.h"
+i"Poco/File.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/utils/ofLog.h
+c000000004E1908D000000000000014B0
+t1310263504
+s5296
+i"ofConstants.h"
+i"ofFileUtils.h"
+i"ofTypes.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/utils/ofSystemUtils.h
+c000000004DD6FD1200000000000001AC
+t1305935122
+s428
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/utils/ofThread.h
+c000000004D31A162000000000000050C
+t1295098210
+s1292
+i"ofConstants.h"
+i"ofTypes.h"
+i<process.h>
+i<pthread.h>
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/utils/ofURLFileLoader.h
+c000000004E27850600000000000008C4
+t1311212806
+s2244
+i<deque>
+i<queue>
+i"ofThread.h"
+i"ofEvents.h"
+i"ofFileUtils.h"
+i"Poco/Condition.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/utils/ofUtils.h
+c000000004E2785060000000000001245
+t1311212806
+s4677
+i"ofConstants.h"
+i<bitset>
+i"ofLog.h"
+i<shellapi.h>
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/video/ofDirectShowGrabber.h
+c000000004D54C94A0000000000000475
+t1297402186
+s1141
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofBaseTypes.h"
+i"ofPixels.h"
+i"videoInput.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/video/ofGstUtils.h
+c000000004DAFB79E0000000000000FA6
+t1303361438
+s4006
+i"ofConstants.h"
+i<gst/gst.h>
+i<gst/app/gstappsink.h>
+i"ofConstants.h"
+i"ofBaseTypes.h"
+i"ofPixels.h"
+i"ofTypes.h"
+i"ofEvents.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/video/ofGstVideoGrabber.h
+c000000004D54C94A0000000000000542
+t1297402186
+s1346
+i"ofGstUtils.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/video/ofGstVideoPlayer.h
+c000000004DF1E0D4000000000000059F
+t1307697364
+s1439
+i"ofGstUtils.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/video/ofQtUtils.h
+c000000004D54C94A00000000000006B5
+t1297402186
+s1717
+i"ofConstants.h"
+i<QuickTime/QuickTime.h>
+i<CoreServices/CoreServices.h>
+i<ApplicationServices/ApplicationServices.h>
+i<QTML.h>
+i<FixMath.h>
+i<QuickTimeComponents.h>
+i<TextUtils.h>
+i<MediaHandlers.h>
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/video/ofQuickTimeGrabber.h
+c000000004D57731C0000000000000648
+t1297576732
+s1608
+i"ofConstants.h"
+i"ofQtUtils.h"
+i"ofTexture.h"
+i"ofBaseTypes.h"
+i"ofPixels.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/video/ofQuickTimePlayer.h
+c000000004D54C94A00000000000008B8
+t1297402186
+s2232
+i"ofConstants.h"
+i"ofBaseTypes.h"
+i"ofPixels.h"
+i"ofQtUtils.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/video/ofVideoGrabber.h
+c000000004E19086C00000000000009ED
+t1310263404
+s2541
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofBaseTypes.h"
+i"ofPixels.h"
+i"ofTypes.h"
+i"ofiPhoneVideoGrabber.h"
+i"ofQuickTimeGrabber.h"
+i"ofDirectShowGrabber.h"
+i"ofGstVideoGrabber.h"
+i"ofxAndroidVideoGrabber.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/video/ofVideoPlayer.h
+c000000004E19086C0000000000000ABD
+t1310263404
+s2749
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofBaseTypes.h"
+i"ofTypes.h"
+i"ofGstVideoPlayer.h"
+i"ofQuickTimePlayer.h"
+i"ofiPhoneVideoPlayer.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/video/ofiPhoneVideoGrabber.h
+c000000004E19086C000000000000032C
+t1310263404
+s812
+i"ofVideoGrabber.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworks/video/ofiPhoneVideoPlayer.h
+c000000004E19086C0000000000000612
+t1310263404
+s1554
+i"ofPixels.h"
+i"ofBaseTypes.h"
+i"ofTexture.h"
+i"ofVideoPlayer.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/openFrameworksCompiled/lib/iphone/libofxiPhone_iphoneos_Debug.a
+c000000004FDC0DE80000000005574550
+t1339821544
+s89605456
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/AbstractDelegate.h
+c000000004D2BE8AA0000000000000B59
+t1294723242
+s2905
+i"Poco/Foundation.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/AbstractEvent.h
+c000000004D2BE8AA0000000000002D7C
+t1294723242
+s11644
+i"Poco/Foundation.h"
+i"Poco/SingletonHolder.h"
+i"Poco/SharedPtr.h"
+i"Poco/ActiveResult.h"
+i"Poco/ActiveMethod.h"
+i"Poco/Mutex.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/ActiveMethod.h
+c000000004D2BE8AA0000000000001C64
+t1294723242
+s7268
+i"Poco/Foundation.h"
+i"Poco/ActiveResult.h"
+i"Poco/ActiveRunnable.h"
+i"Poco/ActiveStarter.h"
+i"Poco/AutoPtr.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/ActiveResult.h
+c000000004D2BE8AA0000000000002E66
+t1294723242
+s11878
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+i"Poco/Event.h"
+i"Poco/RefCountedObject.h"
+i"Poco/Exception.h"
+i<algorithm>
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/ActiveRunnable.h
+c000000004D2BE8AA0000000000001785
+t1294723242
+s6021
+i"Poco/Foundation.h"
+i"Poco/ActiveResult.h"
+i"Poco/Runnable.h"
+i"Poco/RefCountedObject.h"
+i"Poco/AutoPtr.h"
+i"Poco/Exception.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/ActiveStarter.h
+c000000004D2BE8AA0000000000000927
+t1294723242
+s2343
+i"Poco/Foundation.h"
+i"Poco/ThreadPool.h"
+i"Poco/ActiveRunnable.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/AtomicCounter.h
+c000000004D83AA940000000000001D13
+t1300474516
+s7443
+i"Poco/Foundation.h"
+i"Poco/UnWindows.h"
+i<libkern/OSAtomic.h>
+i"Poco/Mutex.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/AutoPtr.h
+c000000004D2BE8AA0000000000001E0C
+t1294723242
+s7692
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<algorithm>
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/Bugcheck.h
+c000000004D2BE8AA00000000000014A9
+t1294723242
+s5289
+i"Poco/Foundation.h"
+i<string>
+i<iostream>
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/CompareFunctions.h
+c000000004D2BE8AA00000000000007EC
+t1294723242
+s2028
+i"Poco/Foundation.h"
+i<functional>
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/Condition.h
+c000000004D2BE8AA0000000000001236
+t1294723242
+s4662
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+i"Poco/ScopedUnlock.h"
+i"Poco/Event.h"
+i"Poco/Exception.h"
+i<deque>
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/Config.h
+c000000004D2BE8AA0000000000000E22
+t1294723242
+s3618
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/Delegate.h
+c000000004D2BE8AA0000000000001828
+t1294723242
+s6184
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/FunctionDelegate.h"
+i"Poco/Expire.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/Event.h
+c000000004D2BE8AA0000000000000E21
+t1294723242
+s3617
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/Event_WIN32.h"
+i"Poco/Event_POSIX.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/Event_POSIX.h
+c000000004D2BE8AA0000000000000A91
+t1294723242
+s2705
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<pthread.h>
+i<errno.h>
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/Event_WIN32.h
+c000000004D54BEE8000000000000093F
+t1297399528
+s2367
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/UnWindows.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/Exception.h
+c000000004D54BEE8000000000000283D
+t1297399528
+s10301
+i"Poco/Foundation.h"
+i<stdexcept>
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/Expire.h
+c000000004D2BE8AA0000000000000D0D
+t1294723242
+s3341
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/Timestamp.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/FIFOEvent.h
+c000000004D2BE8AA0000000000000B15
+t1294723242
+s2837
+i"Poco/AbstractEvent.h"
+i"Poco/FIFOStrategy.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/CompareFunctions.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/FIFOStrategy.h
+c000000004D2BE8AA0000000000001116
+t1294723242
+s4374
+i"Poco/NotificationStrategy.h"
+i<map>
+i<list>
+i<memory>
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/File.h
+c000000004D44A73A0000000000001F91
+t1296344890
+s8081
+i"Poco/Foundation.h"
+i"Poco/Timestamp.h"
+i<vector>
+i"File_WINCE.h"
+i"Poco/File_WIN32U.h"
+i"Poco/File_WIN32.h"
+i"Poco/File_UNIX.h"
+i"Poco/File_VMS.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/File_UNIX.h
+c000000004D2BE8AA0000000000000BC1
+t1294723242
+s3009
+i"Poco/Foundation.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/File_VMS.h
+c000000004D2BE8AA0000000000000BBC
+t1294723242
+s3004
+i"Poco/Foundation.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/File_WIN32.h
+c000000004D2BE8AA0000000000000C0C
+t1294723242
+s3084
+i"Poco/Foundation.h"
+i"Poco/Timestamp.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/File_WIN32U.h
+c000000004D2BE8AA0000000000000C2B
+t1294723242
+s3115
+i"Poco/Foundation.h"
+i"Poco/Timestamp.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/File_WINCE.h
+c000000004D2BE8AA0000000000000C2C
+t1294723242
+s3116
+i"Poco/Foundation.h"
+i"Poco/Timestamp.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/Foundation.h
+c000000004D54BEE800000000000010BE
+t1297399528
+s4286
+i"Poco/Config.h"
+i"Poco/Platform.h"
+i"Poco/Platform_WIN32.h"
+i"Poco/Platform_VMS.h"
+i"Poco/Platform_POSIX.h"
+i"Poco/Bugcheck.h"
+i"Poco/Types.h"
+i<string>
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/FunctionDelegate.h
+c000000004D2BE8AA00000000000013C8
+t1294723242
+s5064
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/Mutex.h
+c000000004D2BE8AC0000000000001D9F
+t1294723244
+s7583
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/ScopedLock.h"
+i"Poco/Mutex_WINCE.h"
+i"Poco/Mutex_WIN32.h"
+i"Poco/Mutex_POSIX.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/Mutex_POSIX.h
+c000000004D54BEE80000000000000AC3
+t1297399528
+s2755
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<pthread.h>
+i<errno.h>
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/Mutex_WIN32.h
+c000000004D54BEE80000000000000A04
+t1297399528
+s2564
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/UnWindows.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/Mutex_WINCE.h
+c000000004D2BE8AC0000000000000870
+t1294723244
+s2160
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/UnWindows.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/NotificationStrategy.h
+c000000004D2BE8AC0000000000000B48
+t1294723244
+s2888
+i"Poco/Foundation.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/Platform.h
+c000000004D54BEE80000000000001AF7
+t1297399528
+s6903
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/Platform_POSIX.h
+c000000004D2BE8AC0000000000000843
+t1294723244
+s2115
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/Platform_VMS.h
+c000000004D54BEE80000000000000BAA
+t1297399528
+s2986
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/Platform_WIN32.h
+c000000004D54BEE80000000000000DCF
+t1297399528
+s3535
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/RefCountedObject.h
+c000000004D2BE8AC0000000000000BB1
+t1294723244
+s2993
+i"Poco/Foundation.h"
+i"Poco/AtomicCounter.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/Runnable.h
+c000000004D2BE8AC0000000000000861
+t1294723244
+s2145
+i"Poco/Foundation.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/ScopedLock.h
+c000000004D44A73A0000000000000B7F
+t1296344890
+s2943
+i"Poco/Foundation.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/ScopedUnlock.h
+c000000004D2BE8AC000000000000092B
+t1294723244
+s2347
+i"Poco/Foundation.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/SharedPtr.h
+c000000004D54BEE80000000000002278
+t1297399528
+s8824
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/AtomicCounter.h"
+i<algorithm>
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/SignalHandler.h
+c000000004D2BE8AC00000000000011EB
+t1294723244
+s4587
+i"Poco/Foundation.h"
+i<vector>
+i<setjmp.h>
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/SingletonHolder.h
+c000000004D2BE8AC0000000000000A67
+t1294723244
+s2663
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/Thread.h
+c000000004D2BE8AC0000000000001E10
+t1294723244
+s7696
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+i"Poco/Thread_WINCE.h"
+i"Poco/Thread_WIN32.h"
+i"Poco/Thread_POSIX.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/ThreadPool.h
+c000000004D2BE8AC0000000000001C8A
+t1294723244
+s7306
+i"Poco/Foundation.h"
+i"Poco/Thread.h"
+i"Poco/Mutex.h"
+i<vector>
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/Thread_POSIX.h
+c000000004D2BE8AC00000000000013B7
+t1294723244
+s5047
+i"Poco/Foundation.h"
+i"Poco/Runnable.h"
+i"Poco/SignalHandler.h"
+i"Poco/Event.h"
+i"Poco/RefCountedObject.h"
+i"Poco/AutoPtr.h"
+i<pthread.h>
+i<limits.h>
+i<sys/select.h>
+i<errno.h>
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/Thread_WIN32.h
+c000000004D54BEE80000000000001301
+t1297399528
+s4865
+i"Poco/Foundation.h"
+i"Poco/Runnable.h"
+i"Poco/UnWindows.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/Thread_WINCE.h
+c000000004D2BE8AC0000000000001276
+t1294723244
+s4726
+i"Poco/Foundation.h"
+i"Poco/Runnable.h"
+i"Poco/UnWindows.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/Timestamp.h
+c000000004D2BE8AC0000000000001A41
+t1294723244
+s6721
+i"Poco/Foundation.h"
+i<ctime>
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/Types.h
+c000000004D54BEE80000000000001926
+t1297399528
+s6438
+i"Poco/Foundation.h"
+
+N/Applications/of_preRelease_v007_iphone/libs/poco/include/Poco/UnWindows.h
+c000000004D2BE8AC0000000000000FC3
+t1294723244
+s4035
+i<windows.h>
+
+N/Applications/of_preRelease_v007_iphone/libs/tess2/include/tesselator.h
+c000000004E0D5F9A0000000000001C63
+t1309499290
+s7267
+i<TargetConditionals.h>
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004FD877420000000000000110
+t1339586370
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004D5EBED1000000000022E2B0
+t1298054865
+s2286256
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004D5A25CF00000000003FF380
+t1297753551
+s4191104
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004D5A259E0000000000000A23
+t1297753502
+s2595
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/CoreAudioTypes.h
+c000000004D54D08100000000000104EC
+t1297404033
+s66796
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54D18C00000000003532A0
+t1297404300
+s3486368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004D5DE7AF00000000000FD4D0
+t1297999791
+s1037520
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004D5DE7A400000000000001D0
+t1297999780
+s464
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000004D5C99E400000000000EBFA0
+t1297914340
+s966560
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000004D54D2D00000000000030F30
+t1297404624
+s200496
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004D5C9CA600000000000002FE
+t1297915046
+s766
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004D5C9CD400000000002B3AB0
+t1297915092
+s2833072
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+c000000004D54D19100000000000064FD
+t1297404305
+s25853
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+c000000004D54D1910000000000001F45
+t1297404305
+s8005
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004D54D1950000000000046A90
+t1297404309
+s289424
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004D54D429000000000000094F
+t1297404969
+s2383
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004D54D4290000000000000A61
+t1297404969
+s2657
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004D54D4290000000000009369
+t1297404969
+s37737
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004D54D4290000000000003C4A
+t1297404969
+s15434
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004D54D43E000000000002E690
+t1297404990
+s190096
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004D54D49500000000000000C4
+t1297405077
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004D54D608000000000026CB10
+t1297405448
+s2542352
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5A292A0000000000CA2AE0
+t1297754410
+s13249248
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/Availability.h
+c000000004D4F74C20000000000001B19
+t1297052866
+s6937
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/TargetConditionals.h
+c000000004D4F74C200000000000031E9
+t1297052866
+s12777
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/errno.h
+c000000004D4F6E9000000000000003EB
+t1297051280
+s1003
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/inttypes.h
+c000000004D4F6E900000000000002674
+t1297051280
+s9844
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libkern/OSAtomic.h
+c000000004D4F6E9100000000000077C3
+t1297051281
+s30659
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/pthread.h
+c000000004D4F6E910000000000003BF6
+t1297051281
+s15350
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/setjmp.h
+c000000004D4F6E900000000000000438
+t1297051280
+s1080
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/stdio.h
+c000000004D4F6E910000000000004763
+t1297051281
+s18275
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/stdlib.h
+c000000004D4F6E9100000000000030A7
+t1297051281
+s12455
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/string.h
+c000000004D4F6E910000000000001A3A
+t1297051281
+s6714
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/sys/select.h
+c000000004D54CB2900000000000016A2
+t1297402665
+s5794
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/sys/sysctl.h
+c000000004D54CB290000000000007D09
+t1297402665
+s32009
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/termios.h
+c000000004D4F6E9000000000000004D4
+t1297051280
+s1236
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/unistd.h
+c000000004D4F6E910000000000006662
+t1297051281
+s26210
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/lib/gcc/arm-apple-darwin10/4.2.1/include/limits.h
+c000000004D09AC6C0000000000000C7E
+t1292479596
+s3198
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/lib/gcc/arm-apple-darwin10/4.2.1/include/stddef.h
+c000000004D09AC6C0000000000003197
+t1292479596
+s12695
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/lib/gcc/arm-apple-darwin10/4.2.1/include/stdint.h
+c000000004D09AD56000000000000190C
+t1292479830
+s6412
+
+N/Users/hrd_zemi/Library/MobileDevice/Provisioning Profiles/779FC791-0543-4517-A02F-866C57E6793F.mobileprovision
+c0000000050FE3A1B0000000000001D6A
+t1358838299
+s7530
+
+N/Users/hrd_zemi/Library/MobileDevice/Provisioning Profiles/8C0E70F5-3DFC-4659-BB5D-0C815D37F86B.mobileprovision
+c000000004FFEDFF1000000000000A2E4
+t1342103537
+s41700
+
+N/Users/hrd_zemi/Library/MobileDevice/Provisioning Profiles/9E05909B-80DC-44D8-94B7-8E4E54884DEA.mobileprovision
+c0000000050FF7DA50000000000001DA2
+t1358921125
+s7586
+
+N/Users/hrd_zemi/Library/MobileDevice/Provisioning Profiles/A0EC58BD-98D8-40C0-974A-8A0F42CCC865.mobileprovision
+c0000000050FE3844000000000000A7E1
+t1358837828
+s42977
+
+N/Users/hrd_zemi/Library/MobileDevice/Provisioning Profiles/C1C5DBD7-F9D3-4607-8CC4-22A4A6BF7179.mobileprovision
+c0000000050FE2E09000000000000A7E1
+t1358835209
+s42977
+
+N/var/folders/jX/jX4pxiBXHm400ER2w+S8WU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-cjryudbpxcjsqugqsefflitjqxcg/iPhone_Prefix.pch.gch
+t1358834409
+s10798892
+
+N/var/folders/jX/jX4pxiBXHm400ER2w+S8WU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-dxvldonulnztbtchqiwszsdqdlmx/iPhone_Prefix.pch.gch
+t1358834408
+s1515748
+
+N/var/folders/jX/jX4pxiBXHm400ER2w+S8WU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-dzpomasomsienaflecgnupebugra/iPhone_Prefix.pch.gch
+t1358834409
+s1962212
+
+N/var/folders/jX/jX4pxiBXHm400ER2w+S8WU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-gaosvrmwctprukfmcehoiuaobfgu/iPhone_Prefix.pch.gch
+t1358834409
+s11257644
+
+Nofxiphone-Info.plist
+c000000004E267A4C0000000000000428
+t1311144524
+s1064
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies380614514#380614514#0(245"[WARN]Warning: The バンドルリソースをコピー build phase contains this target's Info.plist file 'ofxiphone-Info.plist'.[BWARN]warning: iPad only apps should not include an armv6 architecture (current ARCHS = "armv6 armv7").2(22@133"Warning: The バンドルリソースをコピー build phase contains this target's Info.plist file 'ofxiphone-Info.plist'.380614514#18446744073709551615#0#0(1@0"0(22@97"warning: iPad only apps should not include an armv6 architecture (current ARCHS = "armv6 armv7").380614514#18446744073709551615#0#0(1@0"0(0#1#0"8609556704#0"0#
+
+CCodeSign /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app
+s380614458.668003
+e380614466.669101
+r1
+xCodeSign
+x/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app
+lSLF07#2@46"CodeSign build/Debug-iphoneos/emptyExample.app380614458#380614466#0(0"0(0#0#94"/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app8613138112#803"    cd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: kyoji moriguchi (E578NT35HT)" --resource-rules=/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/ResourceRules.plist --entitlements /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample.xcent /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app0#
+
+CCompileC build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv6/GReaf.o /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/GReaf.cpp normal armv6 c++ com.apple.compilers.gcc.4_2
+s380614449.368964
+e380614451.127230
+r1
+xCompileC
+xbuild/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv6/GReaf.o
+x/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/GReaf.cpp
+xnormal
+xarmv6
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/GReaf.cpp380614449#380614451#0(0"0(0#0#70"/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/GReaf.cpp8649181344#3051"    cd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility-inlines-hidden -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -mno-thumb -miphoneos-version-min=4.3 -iquote /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-generated-files.hmap -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-own-target-headers.hmap -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-all-target-headers.hmap -iquote /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-project-headers.hmap -F/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../addons/ofxMultiTouch -I../../../addons/ofxMultiTouch/src -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../libs/glu/include_iphone -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/DerivedSources/armv6 -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/DerivedSources -include /var/folders/jX/jX4pxiBXHm400ER2w+S8WU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-dxvldonulnztbtchqiwszsdqdlmx/iPhone_Prefix.pch -c /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/GReaf.cpp -o /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv6/GReaf.o0#
+
+CCompileC build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv6/main.o /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/main.mm normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s380614447.232347
+e380614449.368735
+r1
+xCompileC
+xbuild/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv6/main.o
+x/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/main.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/main.mm380614447#380614449#0(0"0(0#0#68"/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/main.mm8626081632#3072"    cd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility-inlines-hidden -Wno-protocol -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -mno-thumb -miphoneos-version-min=4.3 -iquote /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-generated-files.hmap -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-own-target-headers.hmap -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-all-target-headers.hmap -iquote /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-project-headers.hmap -F/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../addons/ofxMultiTouch -I../../../addons/ofxMultiTouch/src -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../libs/glu/include_iphone -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/DerivedSources/armv6 -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/DerivedSources -include /var/folders/jX/jX4pxiBXHm400ER2w+S8WU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-cjryudbpxcjsqugqsefflitjqxcg/iPhone_Prefix.pch -c /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/main.mm -o /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv6/testApp.o /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/testApp.mm normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s380614447.242828
+e380614449.427938
+r1
+xCompileC
+xbuild/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv6/testApp.o
+x/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/testApp.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/testApp.mm380614447#380614449#0(0"0(0#0#71"/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/testApp.mm8645803072#3078"    cd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility-inlines-hidden -Wno-protocol -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -mno-thumb -miphoneos-version-min=4.3 -iquote /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-generated-files.hmap -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-own-target-headers.hmap -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-all-target-headers.hmap -iquote /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-project-headers.hmap -F/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../addons/ofxMultiTouch -I../../../addons/ofxMultiTouch/src -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../libs/glu/include_iphone -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/DerivedSources/armv6 -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/DerivedSources -include /var/folders/jX/jX4pxiBXHm400ER2w+S8WU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-cjryudbpxcjsqugqsefflitjqxcg/iPhone_Prefix.pch -c /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/testApp.mm -o /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv6/testApp.o0#
+
+CCompileC build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv7/GReaf.o /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/GReaf.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
+s380614452.988738
+e380614454.425728
+r1
+xCompileC
+xbuild/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv7/GReaf.o
+x/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/GReaf.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/GReaf.cpp380614452#380614454#0(0"0(0#0#70"/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/GReaf.cpp8623169920#3051"    cd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility-inlines-hidden -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -mno-thumb -miphoneos-version-min=4.3 -iquote /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-generated-files.hmap -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-own-target-headers.hmap -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-all-target-headers.hmap -iquote /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-project-headers.hmap -F/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../addons/ofxMultiTouch -I../../../addons/ofxMultiTouch/src -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../libs/glu/include_iphone -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/DerivedSources/armv7 -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/DerivedSources -include /var/folders/jX/jX4pxiBXHm400ER2w+S8WU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-dzpomasomsienaflecgnupebugra/iPhone_Prefix.pch -c /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/GReaf.cpp -o /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv7/GReaf.o0#
+
+CCompileC build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv7/main.o /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/main.mm normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+s380614449.428040
+e380614451.384261
+r1
+xCompileC
+xbuild/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv7/main.o
+x/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/main.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/main.mm380614449#380614451#0(0"0(0#0#68"/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/main.mm8638131424#3072"    cd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility-inlines-hidden -Wno-protocol -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -mno-thumb -miphoneos-version-min=4.3 -iquote /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-generated-files.hmap -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-own-target-headers.hmap -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-all-target-headers.hmap -iquote /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-project-headers.hmap -F/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../addons/ofxMultiTouch -I../../../addons/ofxMultiTouch/src -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../libs/glu/include_iphone -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/DerivedSources/armv7 -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/DerivedSources -include /var/folders/jX/jX4pxiBXHm400ER2w+S8WU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-gaosvrmwctprukfmcehoiuaobfgu/iPhone_Prefix.pch -c /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/main.mm -o /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv7/main.o0#
+
+CCompileC build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv7/testApp.o /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/testApp.mm normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+s380614451.384365
+e380614452.988574
+r1
+xCompileC
+xbuild/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv7/testApp.o
+x/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/testApp.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/testApp.mm380614451#380614452#0(0"0(0#0#71"/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/testApp.mm8653428832#3078"    cd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility-inlines-hidden -Wno-protocol -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -mno-thumb -miphoneos-version-min=4.3 -iquote /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-generated-files.hmap -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-own-target-headers.hmap -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-all-target-headers.hmap -iquote /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-project-headers.hmap -F/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../addons/ofxMultiTouch -I../../../addons/ofxMultiTouch/src -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../libs/glu/include_iphone -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/DerivedSources/armv7 -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/DerivedSources -include /var/folders/jX/jX4pxiBXHm400ER2w+S8WU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-gaosvrmwctprukfmcehoiuaobfgu/iPhone_Prefix.pch -c /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/testApp.mm -o /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv7/testApp.o0#
+
+CCopyPNGFile /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/Default.png bin/data/Default.png
+s380527207.991997
+e380527208.078497
+r1
+xCopyPNGFile
+x/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/Default.png
+xbin/data/Default.png
+lSLF07#2@82"CopyPNGFile build/Debug-iphoneos/emptyExample.app/Default.png bin/data/Default.png380527207#380527208#0(0"0(0#0#77"/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/bin/data/Default.png8634741856#582"    cd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" "" /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/bin/data/Default.png /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/Default.png0#
+
+CCopyPNGFile /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/Icon.png bin/data/Icon.png
+s380527207.997326
+e380527208.075466
+r1
+xCopyPNGFile
+x/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/Icon.png
+xbin/data/Icon.png
+lSLF07#2@76"CopyPNGFile build/Debug-iphoneos/emptyExample.app/Icon.png bin/data/Icon.png380527207#380527208#0(0"0(0#0#74"/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/bin/data/Icon.png8631091040#576"    cd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" "" /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/bin/data/Icon.png /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/Icon.png0#
+
+CCopyPlistFile /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/ofxiphone-Info.plist ofxiphone-Info.plist
+s380527208.075562
+e380527208.107574
+r1
+xCopyPlistFile
+x/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/ofxiphone-Info.plist
+xofxiphone-Info.plist
+lSLF07#2@25"Copy ofxiphone-Info.plist380527208#380527208#0(0"0(0#0#77"/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/ofxiphone-Info.plist8651100032#484"    cd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 ofxiphone-Info.plist --outdir /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app0#
+
+CCpResource build/Debug-iphoneos/emptyExample.app/CoreOF.xcconfig ../../../libs/openFrameworksCompiled/project/iphone/CoreOF.xcconfig
+s380527208.082087
+e380527208.088916
+r1
+xCpResource
+xbuild/Debug-iphoneos/emptyExample.app/CoreOF.xcconfig
+x../../../libs/openFrameworksCompiled/project/iphone/CoreOF.xcconfig
+lSLF07#2@72"Copy ../../../libs/openFrameworksCompiled/project/iphone/CoreOF.xcconfig380527208#380527208#0(0"0(0#0#124"/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/../../../libs/openFrameworksCompiled/project/iphone/CoreOF.xcconfig8639316800#653"    cd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/../../../libs/openFrameworksCompiled/project/iphone/CoreOF.xcconfig /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app0#
+
+CCpResource build/Debug-iphoneos/emptyExample.app/Project.xcconfig Project.xcconfig
+s380527208.078575
+e380527208.087545
+r1
+xCpResource
+xbuild/Debug-iphoneos/emptyExample.app/Project.xcconfig
+xProject.xcconfig
+lSLF07#2@21"Copy Project.xcconfig380527208#380527208#0(0"0(0#0#73"/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/Project.xcconfig8645836192#602"    cd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/Project.xcconfig /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app0#
+
+CCpResource build/Debug-iphoneos/emptyExample.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+s380527207.979088
+e380527207.987264
+r1
+xCpResource
+xbuild/Debug-iphoneos/emptyExample.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist380527207#380527207#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist8624913760#618"    cd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app0#
+
+CCreateUniversalBinary /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/emptyExample normal "armv6 armv7"
+s380614456.399631
+e380614456.648308
+r1
+xCreateUniversalBinary
+x/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/emptyExample
+xnormal
+xarmv6 armv7
+lSLF07#2@93"CreateUniversalBinary build/Debug-iphoneos/emptyExample.app/emptyExample normal "armv6 armv7"380614456#380614456#0(0"0(0#0#68"/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/armv6 armv78658842240#678"    cd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/lipo -create /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv6/emptyExample /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv7/emptyExample -output /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/emptyExample0#
+
+CGenerateDSYMFile /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app.dSYM /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/emptyExample
+s380614456.648407
+e380614458.609404
+r1
+xGenerateDSYMFile
+x/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app.dSYM
+x/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/emptyExample
+lSLF07#2@110"GenerateDSYMFile build/Debug-iphoneos/emptyExample.app.dSYM build/Debug-iphoneos/emptyExample.app/emptyExample380614456#380614458#0(0"0(0#0#107"/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/emptyExample8634998048#493"    cd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/emptyExample -o /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app.dSYM0#
+
+CLd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv6/emptyExample normal armv6
+s380614451.127445
+e380614454.333480
+r1
+xLd
+x/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv6/emptyExample
+xnormal
+xarmv6
+old: warning: ignoring file ../../../libs/FreeImage/lib/osx/freeimage.a, missing required architecture armv6 in file
+old: warning: ignoring file ../../../libs/glew/lib/osx/glew.a, file was built for archive which is not the architecture being linked (armv6)
+old: warning: ignoring file ../../../libs/cairo/lib/osx/cairo.a, file was built for archive which is not the architecture being linked (armv6)
+old: warning: ignoring file ../../../libs/glu/lib/iphone/glu.a, file was built for archive which is not the architecture being linked (armv6)
+lSLF07#2@147"Link /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv6/emptyExample380614451#380614454#0(539"ld: warning: ignoring file ../../../libs/FreeImage/lib/osx/freeimage.a, missing required architecture armv6 in fileld: warning: ignoring file ../../../libs/glew/lib/osx/glew.a, file was built for archive which is not the architecture being linked (armv6)ld: warning: ignoring file ../../../libs/cairo/lib/osx/cairo.a, file was built for archive which is not the architecture being linked (armv6)ld: warning: ignoring file ../../../libs/glu/lib/iphone/glu.a, file was built for archive which is not the architecture being linked (armv6)4(22@102"Ignoring file ../../../libs/FreeImage/lib/osx/freeimage.a, missing required architecture armv6 in file380614454#0#116#0(6@0"380614454#0#0#0#0#0"0(22@126"Ignoring file ../../../libs/glew/lib/osx/glew.a, file was built for archive which is not the architecture being linked (armv6)380614454#116#140#0(6@0"380614454#0#0#0#0#0"0(22@128"Ignoring file ../../../libs/cairo/lib/osx/cairo.a, file was built for archive which is not the architecture being linked (armv6)380614454#256#142#0(6@0"380614454#0#0#0#0#0"0(22@127"Ignoring file ../../../libs/glu/lib/iphone/glu.a, file was built for archive which is not the architecture being linked (armv6)380614454#398#141#0(6@0"380614454#0#0#0#0#0"0(0#0#0"8651706720#1848"    cd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/g++-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos -F/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos -filelist /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv6/emptyExample.LinkFileList -dead_strip -ObjC ../../../libs/freetype/lib/iphone/freetype.a ../../../libs/FreeImage/lib/osx/freeimage.a ../../../libs/FreeImage/lib/iphone/freeimage.a ../../../libs/glew/lib/osx/glew.a ../../../libs/cairo/lib/osx/cairo.a ../../../libs/poco/lib/iphone/PocoFoundation.a ../../../libs/poco/lib/iphone/PocoNet.a ../../../libs/poco/lib/iphone/PocoXML.a ../../../libs/poco/lib/iphone/PocoUtil.a ../../../libs/tess2/lib/iphone/tess2.a ../../../libs/glu/lib/iphone/glu.a ../../../libs/glu/lib/iphone/glu-iphone.a -miphoneos-version-min=4.3 /Applications/of_preRelease_v007_iphone/libs/openFrameworksCompiled/lib/iphone/libofxiPhone_iphoneos_Debug.a -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenGLES -framework QuartzCore -framework AudioToolbox -framework OpenAL -framework CoreLocation -framework CoreGraphics -framework AVFoundation -framework CoreMedia -framework CoreVideo -framework MapKit -o /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv6/emptyExample0#
+
+CLd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv7/emptyExample normal armv7
+s380614454.425836
+e380614456.399370
+r1
+xLd
+x/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv7/emptyExample
+xnormal
+xarmv7
+old: warning: ignoring file ../../../libs/FreeImage/lib/osx/freeimage.a, missing required architecture armv7 in file
+old: warning: ignoring file ../../../libs/glew/lib/osx/glew.a, file was built for archive which is not the architecture being linked (armv7)
+old: warning: ignoring file ../../../libs/cairo/lib/osx/cairo.a, file was built for archive which is not the architecture being linked (armv7)
+old: warning: ignoring file ../../../libs/glu/lib/iphone/glu.a, file was built for archive which is not the architecture being linked (armv7)
+old: warning: PIE disabled. Absolute addressing (perhaps -mdynamic-no-pic) not allowed in code signed PIE, but used in _FreeImage_GetMetadata from ../../../libs/FreeImage/lib/iphone/freeimage.a(BitmapAccess.o-arm). To fix this warning, don't compile with -mdynamic-no-pic or link with -Wl,-no_pie
+lSLF07#2@147"Link /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv7/emptyExample380614454#380614456#0(835"ld: warning: ignoring file ../../../libs/FreeImage/lib/osx/freeimage.a, missing required architecture armv7 in fileld: warning: ignoring file ../../../libs/glew/lib/osx/glew.a, file was built for archive which is not the architecture being linked (armv7)ld: warning: ignoring file ../../../libs/cairo/lib/osx/cairo.a, file was built for archive which is not the architecture being linked (armv7)ld: warning: ignoring file ../../../libs/glu/lib/iphone/glu.a, file was built for archive which is not the architecture being linked (armv7)ld: warning: PIE disabled. Absolute addressing (perhaps -mdynamic-no-pic) not allowed in code signed PIE, but used in _FreeImage_GetMetadata from ../../../libs/FreeImage/lib/iphone/freeimage.a(BitmapAccess.o-arm). To fix this warning, don't compile with -mdynamic-no-pic or link with -Wl,-no_pie5(22@102"Ignoring file ../../../libs/FreeImage/lib/osx/freeimage.a, missing required architecture armv7 in file380614456#0#116#0(6@0"380614456#0#0#0#0#0"0(22@126"Ignoring file ../../../libs/glew/lib/osx/glew.a, file was built for archive which is not the architecture being linked (armv7)380614456#116#140#0(6@0"380614456#0#0#0#0#0"0(22@128"Ignoring file ../../../libs/cairo/lib/osx/cairo.a, file was built for archive which is not the architecture being linked (armv7)380614456#256#142#0(6@0"380614456#0#0#0#0#0"0(22@127"Ignoring file ../../../libs/glu/lib/iphone/glu.a, file was built for archive which is not the architecture being linked (armv7)380614456#398#141#0(6@0"380614456#0#0#0#0#0"0(22@282"PIE disabled. Absolute addressing (perhaps -mdynamic-no-pic) not allowed in code signed PIE, but used in _FreeImage_GetMetadata from ../../../libs/FreeImage/lib/iphone/freeimage.a(BitmapAccess.o-arm). To fix this warning, don't compile with -mdynamic-no-pic or link with -Wl,-no_pie380614456#539#296#0(6@0"380614456#0#0#0#0#0"0(0#0#0"8630587968#1848"    cd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/g++-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos -F/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos -filelist /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv7/emptyExample.LinkFileList -dead_strip -ObjC ../../../libs/freetype/lib/iphone/freetype.a ../../../libs/FreeImage/lib/osx/freeimage.a ../../../libs/FreeImage/lib/iphone/freeimage.a ../../../libs/glew/lib/osx/glew.a ../../../libs/cairo/lib/osx/cairo.a ../../../libs/poco/lib/iphone/PocoFoundation.a ../../../libs/poco/lib/iphone/PocoNet.a ../../../libs/poco/lib/iphone/PocoXML.a ../../../libs/poco/lib/iphone/PocoUtil.a ../../../libs/tess2/lib/iphone/tess2.a ../../../libs/glu/lib/iphone/glu.a ../../../libs/glu/lib/iphone/glu-iphone.a -miphoneos-version-min=4.3 /Applications/of_preRelease_v007_iphone/libs/openFrameworksCompiled/lib/iphone/libofxiPhone_iphoneos_Debug.a -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenGLES -framework QuartzCore -framework AudioToolbox -framework OpenAL -framework CoreLocation -framework CoreGraphics -framework AVFoundation -framework CoreMedia -framework CoreVideo -framework MapKit -o /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv7/emptyExample0#
+
+CPhaseScriptExecution スクリプトを実行 /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Script-9255DD331112741900D6945E.sh
+s380614514.493706
+e380614514.574018
+r1
+xPhaseScriptExecution
+xスクリプトを実行
+x/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Script-9255DD331112741900D6945E.sh
+lSLF07#2@53"Run custom shell script 'スクリプトを実行'380614514#380614514#0(0"0(0#0#0"8623703456#22996"    cd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER hrd_zemi    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS "armv6 armv7"    setenv ARCHS_STANDARD_32_64_BIT "armv6 armv7"    setenv ARCHS_STANDARD_32_BIT "armv6 armv7"    setenv ARCHS_UNIVERSAL_IPHONE_OS armv7    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build    setenv BUILD_ROOT /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos    setenv CACHE_ROOT /var/folders/jX/jX4pxiBXHm400ER2w+S8WU+++TM/-Caches-/com.apple.Xcode.502    setenv CCHROOT /var/folders/jX/jX4pxiBXHm400ER2w+S8WU+++TM/-Caches-/com.apple.Xcode.502    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app    setenv CODE_SIGNING_ALLOWED YES    setenv CODE_SIGNING_REQUIRED YES    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneOSCodeSignContext    setenv CODE_SIGN_IDENTITY "iPhone Developer: kyoji moriguchi (E578NT35HT)"    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/jX/jX4pxiBXHm400ER2w+S8WU+++TM/-Caches-/com.apple.Xcode.502/CompositeSDKs    setenv COMPRESS_PNG_FILES NO    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos    setenv CONFIGURATION_TEMP_DIR /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos    setenv CONTENTS_FOLDER_PATH emptyExample.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH armv7    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/DerivedSources    setenv DERIVED_FILE_DIR /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH emptyExample.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/gReaf.dst    setenv DWARF_DSYM_FILE_NAME emptyExample.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos    setenv EFFECTIVE_PLATFORM_NAME -iphoneos    setenv EMBEDDED_PROFILE_NAME embedded.mobileprovision    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv ENTITLEMENTS_ALLOWED YES    setenv ENTITLEMENTS_REQUIRED YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn .git CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn .git *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH emptyExample.app/Executables    setenv EXECUTABLE_FOLDER_PATH emptyExample.app    setenv EXECUTABLE_NAME emptyExample    setenv EXECUTABLE_PATH emptyExample.app/emptyExample    setenv FILE_LIST /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH emptyExample.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME emptyExample.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER iPhone_Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS NO    setenv GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO NO    setenv GCC_WARN_ABOUT_POINTER_SIGNEDNESS NO    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL NO    setenv GCC_WARN_PROTOTYPE_CONVERSION NO    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_CAIRO "\"../../../libs/cairo/include/cairo\""    setenv HEADER_FMODEX "\"../../../libs/fmodex/include\""    setenv HEADER_FREEIMAGE "\"../../../libs/FreeImage/include\""    setenv HEADER_FREETYPE "\"../../../libs/freetype/include\""    setenv HEADER_FREETYPE2 "\"../../../libs/freetype/include/freetype2\""    setenv HEADER_GLEW "\"../../../libs/glew/include\""    setenv HEADER_GLU "\"../../../libs/glu/include_iphone\""    setenv HEADER_OF "\"../../../libs/openFrameworks/**\""    setenv HEADER_OFXACCELEROMETER "\"../../../addons/ofxAccelerometer/**\""    setenv HEADER_OFXIPHONE "\"../../../addons/ofxiPhone/**\""    setenv HEADER_OFXMULTITOUCH "\"../../../addons/ofxMultiTouch/**\""    setenv HEADER_POCO "\"../../../libs/poco/include\""    setenv HEADER_RTAUDIO "\"../../../libs/rtaudio/include\""    setenv HEADER_SEARCH_PATHS "\"/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/include\" \"../../../libs/openFrameworks/**\" \"../../../addons/ofxiPhone/**\" \"../../../addons/ofxMultiTouch/**\" \"../../../addons/ofxAccelerometer/**\" \"../../../libs/poco/include\" \"../../../libs/freetype/include\" \"../../../libs/freetype/include/freetype2\" \"../../../libs/fmodex/include\" \"../../../libs/glew/include\" \"../../../libs/FreeImage/include\" \"../../../libs/tess2/include\" \"../../../libs/cairo/include/cairo\" \"../../../libs/rtaudio/include\" \"../../../libs/glu/include_iphone\""    setenv HEADER_TESS2 "\"../../../libs/tess2/include\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE ofxiphone-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH emptyExample.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH emptyExample.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/gReaf.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER hrd_zemi    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/gReaf.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH emptyExample.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-LinkMap-normal-armv7.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos\" "    setenv LIB_CAIRO "\"../../../libs/cairo/lib/osx/cairo.a\""    setenv LIB_FREEIMAGE "\"../../../libs/FreeImage/lib/osx/freeimage.a\""    setenv LIB_FREEIMAGE_IPHONE "\"../../../libs/FreeImage/lib/iphone/freeimage.a\""    setenv LIB_FREETYPE "\"../../../libs/freetype/lib/iphone/freetype.a\""    setenv LIB_GLEW "\"../../../libs/glew/lib/osx/glew.a\""    setenv LIB_GLU "\"../../../libs/glu/lib/iphone/glu.a\""    setenv LIB_GLU_IPHONE "\"../../../libs/glu/lib/iphone/glu-iphone.a\""    setenv LIB_POCOFOUNDATION_IPHONE "\"../../../libs/poco/lib/iphone/PocoFoundation.a\""    setenv LIB_POCONET_IPHONE "\"../../../libs/poco/lib/iphone/PocoNet.a\""    setenv LIB_POCOUTIL_IPHONE "\"../../../libs/poco/lib/iphone/PocoUtil.a\""    setenv LIB_POCOXML_IPHONE "\"../../../libs/poco/lib/iphone/PocoXML.a\""    setenv LIB_RTAUDIO "\"../../../libs/rtAudio/lib/osx/rtAudio.a\""    setenv LIB_TESS "\"../../../libs/tess2/lib/osx/tess2.a\""    setenv LIB_TESS_IPHONE "\"../../../libs/tess2/lib/iphone/tess2.a\""    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_armv6 /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv6/emptyExample.LinkFileList    setenv LINK_FILE_LIST_normal_armv7 /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal/armv7/emptyExample.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH emptyExample.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 10K549    setenv MAC_OS_X_VERSION_ACTUAL 1068    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0608    setenv MISC_FLAGS "\"-ObjC\""    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects    setenv OBJECT_FILE_DIR_normal /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Objects-normal    setenv OBJROOT /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build    setenv OF_CORE_HEADERS "\"../../../libs/openFrameworks/**\" \"../../../addons/ofxiPhone/**\" \"../../../addons/ofxMultiTouch/**\" \"../../../addons/ofxAccelerometer/**\" \"../../../libs/poco/include\" \"../../../libs/freetype/include\" \"../../../libs/freetype/include/freetype2\" \"../../../libs/fmodex/include\" \"../../../libs/glew/include\" \"../../../libs/FreeImage/include\" \"../../../libs/tess2/include\" \"../../../libs/cairo/include/cairo\" \"../../../libs/rtaudio/include\" \"../../../libs/glu/include_iphone\""    setenv OF_CORE_LIBS "\"-ObjC\" \"../../../libs/freetype/lib/iphone/freetype.a\" \"../../../libs/FreeImage/lib/osx/freeimage.a\" \"../../../libs/FreeImage/lib/iphone/freeimage.a\" \"../../../libs/glew/lib/osx/glew.a\" \"../../../libs/cairo/lib/osx/cairo.a\" \"../../../libs/poco/lib/iphone/PocoFoundation.a\" \"../../../libs/poco/lib/iphone/PocoNet.a\" \"../../../libs/poco/lib/iphone/PocoXML.a\" \"../../../libs/poco/lib/iphone/PocoUtil.a\" \"../../../libs/tess2/lib/iphone/tess2.a\"     \"../../../libs/glu/lib/iphone/glu.a\" \"../../../libs/glu/lib/iphone/glu-iphone.a\""    setenv OF_PATH ../../..    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "\"-ObjC\" \"../../../libs/freetype/lib/iphone/freetype.a\" \"../../../libs/FreeImage/lib/osx/freeimage.a\" \"../../../libs/FreeImage/lib/iphone/freeimage.a\" \"../../../libs/glew/lib/osx/glew.a\" \"../../../libs/cairo/lib/osx/cairo.a\" \"../../../libs/poco/lib/iphone/PocoFoundation.a\" \"../../../libs/poco/lib/iphone/PocoNet.a\" \"../../../libs/poco/lib/iphone/PocoXML.a\" \"../../../libs/poco/lib/iphone/PocoUtil.a\" \"../../../libs/tess2/lib/iphone/tess2.a\"     \"../../../libs/glu/lib/iphone/glu.a\" \"../../../libs/glu/lib/iphone/glu-iphone.a\""    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH emptyExample.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS "c++ objective-c++"    setenv PKGINFO_FILE_PATH /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/PkgInfo    setenv PKGINFO_PATH emptyExample.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneOS.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneOS.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneOS.platform    setenv PLATFORM_NAME iphoneos    setenv PLATFORM_PRODUCT_BUILD_VERSION 8F192    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH emptyExample.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH emptyExample.app/PrivateHeaders    setenv PRODUCT_NAME emptyExample    setenv PRODUCT_SETTINGS_PATH /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/ofxiphone-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT gReaf    setenv PROJECT_DERIVED_FILE_DIR /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/DerivedSources    setenv PROJECT_DIR /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf    setenv PROJECT_FILE_PATH /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/gReaf.xcodeproj    setenv PROJECT_NAME gReaf    setenv PROJECT_TEMP_DIR /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build    setenv PROVISIONING_PROFILE 9E05909B-80DC-44D8-94B7-8E4E54884DEA    setenv PROVISIONING_PROFILE_REQUIRED YES    setenv PUBLIC_HEADERS_FOLDER_PATH emptyExample.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv RESOURCE_RULES_REQUIRED YES    setenv REZ_COLLECTOR_DIR /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH emptyExample.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk    setenv SDK_NAME iphoneos4.3    setenv SDK_PRODUCT_BUILD_VERSION 8F191m    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH emptyExample.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/jX/jX4pxiBXHm400ER2w+S8WU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH emptyExample.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf    setenv SRCROOT /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES 1,2    setenv SYMBOL_REPOSITORY_DIR /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/SymbolRepositories    setenv SYMROOT /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 2    setenv TARGETNAME emptyExample    setenv TARGET_BUILD_DIR /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos    setenv TARGET_NAME emptyExample    setenv TARGET_TEMP_DIR /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build    setenv TEMP_DIR /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build    setenv TEMP_FILES_DIR /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build    setenv TEMP_FILE_DIR /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build    setenv TEMP_ROOT /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build    setenv UID 502    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH emptyExample.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER hrd_zemi    setenv USER_APPS_DIR /Users/hrd_zemi/Applications    setenv USER_LIBRARY_DIR /Users/hrd_zemi/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "armv6 armv7"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH emptyExample.app/version.plist    setenv VERSION_INFO_BUILDER hrd_zemi    setenv VERSION_INFO_FILE emptyExample_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:emptyExample  PROJECT:gReaf-\""    setenv WARNING_LDFLAGS -no_arch_warnings    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME emptyExample.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 10M2518    setenv XCODE_VERSION_ACTUAL 0400    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0400    setenv YACC /Developer/usr/bin/yacc    setenv _REAL_SDKROOT iphoneos    /bin/sh -c /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Script-9255DD331112741900D6945E.sh0#
+
+CPhaseScriptExecution スクリプトを実行 /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/Script-9255DD331112741900D6945E.sh
+r0
+
+CProcessInfoPlistFile /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/Info.plist ofxiphone-Info.plist
+s380527207.985983
+e380527207.991834
+r1
+xProcessInfoPlistFile
+x/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/Info.plist
+xofxiphone-Info.plist
+lSLF07#2@28"Process ofxiphone-Info.plist380527207#380527207#0(0"0(0#0#77"/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/ofxiphone-Info.plist8632009728#713"    cd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility ofxiphone-Info.plist -genpkginfo /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/ResourceRules.plist -o /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/Info.plist0#
+
+CProcessPCH++ /var/folders/jX/jX4pxiBXHm400ER2w+S8WU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-cjryudbpxcjsqugqsefflitjqxcg/iPhone_Prefix.pch.gch iPhone_Prefix.pch normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s380527208.107687
+e380527209.155556
+r1
+xProcessPCH++
+x/var/folders/jX/jX4pxiBXHm400ER2w+S8WU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-cjryudbpxcjsqugqsefflitjqxcg/iPhone_Prefix.pch.gch
+xiPhone_Prefix.pch
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile iPhone_Prefix.pch380527208#380527209#0(0"0(0#0#74"/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/iPhone_Prefix.pch8630971168#2943"    cd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility-inlines-hidden -Wno-protocol -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -mno-thumb -miphoneos-version-min=4.3 -iquote /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-generated-files.hmap -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-own-target-headers.hmap -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-all-target-headers.hmap -iquote /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-project-headers.hmap -F/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../addons/ofxMultiTouch -I../../../addons/ofxMultiTouch/src -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../libs/glu/include_iphone -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/DerivedSources/armv6 -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/DerivedSources -c /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/iPhone_Prefix.pch -o /var/folders/jX/jX4pxiBXHm400ER2w+S8WU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-cjryudbpxcjsqugqsefflitjqxcg/iPhone_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/jX/jX4pxiBXHm400ER2w+S8WU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-dxvldonulnztbtchqiwszsdqdlmx/iPhone_Prefix.pch.gch iPhone_Prefix.pch normal armv6 c++ com.apple.compilers.gcc.4_2
+s380527208.111373
+e380527208.184401
+r1
+xProcessPCH++
+x/var/folders/jX/jX4pxiBXHm400ER2w+S8WU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-dxvldonulnztbtchqiwszsdqdlmx/iPhone_Prefix.pch.gch
+xiPhone_Prefix.pch
+xnormal
+xarmv6
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile iPhone_Prefix.pch380527208#380527208#0(0"0(0#0#74"/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/iPhone_Prefix.pch8604059872#2919"    cd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++-header -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility-inlines-hidden -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -mno-thumb -miphoneos-version-min=4.3 -iquote /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-generated-files.hmap -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-own-target-headers.hmap -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-all-target-headers.hmap -iquote /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-project-headers.hmap -F/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../addons/ofxMultiTouch -I../../../addons/ofxMultiTouch/src -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../libs/glu/include_iphone -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/DerivedSources/armv6 -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/DerivedSources -c /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/iPhone_Prefix.pch -o /var/folders/jX/jX4pxiBXHm400ER2w+S8WU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-dxvldonulnztbtchqiwszsdqdlmx/iPhone_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/jX/jX4pxiBXHm400ER2w+S8WU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-dzpomasomsienaflecgnupebugra/iPhone_Prefix.pch.gch iPhone_Prefix.pch normal armv7 c++ com.apple.compilers.gcc.4_2
+s380527209.155667
+e380527209.265242
+r1
+xProcessPCH++
+x/var/folders/jX/jX4pxiBXHm400ER2w+S8WU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-dzpomasomsienaflecgnupebugra/iPhone_Prefix.pch.gch
+xiPhone_Prefix.pch
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile iPhone_Prefix.pch380527209#380527209#0(0"0(0#0#74"/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/iPhone_Prefix.pch8655267040#2919"    cd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++-header -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility-inlines-hidden -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -mno-thumb -miphoneos-version-min=4.3 -iquote /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-generated-files.hmap -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-own-target-headers.hmap -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-all-target-headers.hmap -iquote /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-project-headers.hmap -F/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../addons/ofxMultiTouch -I../../../addons/ofxMultiTouch/src -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../libs/glu/include_iphone -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/DerivedSources/armv7 -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/DerivedSources -c /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/iPhone_Prefix.pch -o /var/folders/jX/jX4pxiBXHm400ER2w+S8WU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-dzpomasomsienaflecgnupebugra/iPhone_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/jX/jX4pxiBXHm400ER2w+S8WU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-gaosvrmwctprukfmcehoiuaobfgu/iPhone_Prefix.pch.gch iPhone_Prefix.pch normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+s380527208.184507
+e380527209.361490
+r1
+xProcessPCH++
+x/var/folders/jX/jX4pxiBXHm400ER2w+S8WU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-gaosvrmwctprukfmcehoiuaobfgu/iPhone_Prefix.pch.gch
+xiPhone_Prefix.pch
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile iPhone_Prefix.pch380527208#380527209#0(0"0(0#0#74"/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/iPhone_Prefix.pch8639626464#2943"    cd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility-inlines-hidden -Wno-protocol -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -mno-thumb -miphoneos-version-min=4.3 -iquote /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-generated-files.hmap -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-own-target-headers.hmap -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-all-target-headers.hmap -iquote /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample-project-headers.hmap -F/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../addons/ofxMultiTouch -I../../../addons/ofxMultiTouch/src -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../libs/glu/include_iphone -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/DerivedSources/armv7 -I/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/DerivedSources -c /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/iPhone_Prefix.pch -o /var/folders/jX/jX4pxiBXHm400ER2w+S8WU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iPhone_Prefix-gaosvrmwctprukfmcehoiuaobfgu/iPhone_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/hrd_zemi/Library/MobileDevice/Provisioning Profiles/779FC791-0543-4517-A02F-866C57E6793F.mobileprovision" /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/embedded.mobileprovision
+s380531565.249563
+e380531565.270198
+r1
+xProcessProductPackaging
+x/Users/hrd_zemi/Library/MobileDevice/Provisioning Profiles/779FC791-0543-4517-A02F-866C57E6793F.mobileprovision
+x/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/embedded.mobileprovision
+lSLF07#2@200"ProcessProductPackaging "/Users/hrd_zemi/Library/MobileDevice/Provisioning Profiles/779FC791-0543-4517-A02F-866C57E6793F.mobileprovision" build/Debug-iphoneos/emptyExample.app/embedded.mobileprovision380531565#380531565#0(0"0(0#0#119"/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/embedded.mobileprovision8648776512#529"    cd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> "/Users/hrd_zemi/Library/MobileDevice/Provisioning Profiles/779FC791-0543-4517-A02F-866C57E6793F.mobileprovision" -o /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/hrd_zemi/Library/MobileDevice/Provisioning Profiles/8C0E70F5-3DFC-4659-BB5D-0C815D37F86B.mobileprovision" /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/embedded.mobileprovision
+s380527223.069363
+e380527223.097917
+r1
+xProcessProductPackaging
+x/Users/hrd_zemi/Library/MobileDevice/Provisioning Profiles/8C0E70F5-3DFC-4659-BB5D-0C815D37F86B.mobileprovision
+x/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/embedded.mobileprovision
+lSLF07#2@200"ProcessProductPackaging "/Users/hrd_zemi/Library/MobileDevice/Provisioning Profiles/8C0E70F5-3DFC-4659-BB5D-0C815D37F86B.mobileprovision" build/Debug-iphoneos/emptyExample.app/embedded.mobileprovision380527223#380527223#0(0"0(0#0#119"/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/embedded.mobileprovision8629931648#529"    cd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> "/Users/hrd_zemi/Library/MobileDevice/Provisioning Profiles/8C0E70F5-3DFC-4659-BB5D-0C815D37F86B.mobileprovision" -o /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/hrd_zemi/Library/MobileDevice/Provisioning Profiles/9E05909B-80DC-44D8-94B7-8E4E54884DEA.mobileprovision" /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/embedded.mobileprovision
+s380614173.886112
+e380614173.892082
+r1
+xProcessProductPackaging
+x/Users/hrd_zemi/Library/MobileDevice/Provisioning Profiles/9E05909B-80DC-44D8-94B7-8E4E54884DEA.mobileprovision
+x/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/embedded.mobileprovision
+lSLF07#2@200"ProcessProductPackaging "/Users/hrd_zemi/Library/MobileDevice/Provisioning Profiles/9E05909B-80DC-44D8-94B7-8E4E54884DEA.mobileprovision" build/Debug-iphoneos/emptyExample.app/embedded.mobileprovision380614173#380614174#0(0"0(0#0#119"/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/embedded.mobileprovision8631838016#529"    cd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> "/Users/hrd_zemi/Library/MobileDevice/Provisioning Profiles/9E05909B-80DC-44D8-94B7-8E4E54884DEA.mobileprovision" -o /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/hrd_zemi/Library/MobileDevice/Provisioning Profiles/A0EC58BD-98D8-40C0-974A-8A0F42CCC865.mobileprovision" /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/embedded.mobileprovision
+s380531530.474670
+e380531530.476705
+r1
+xProcessProductPackaging
+x/Users/hrd_zemi/Library/MobileDevice/Provisioning Profiles/A0EC58BD-98D8-40C0-974A-8A0F42CCC865.mobileprovision
+x/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/embedded.mobileprovision
+lSLF07#2@200"ProcessProductPackaging "/Users/hrd_zemi/Library/MobileDevice/Provisioning Profiles/A0EC58BD-98D8-40C0-974A-8A0F42CCC865.mobileprovision" build/Debug-iphoneos/emptyExample.app/embedded.mobileprovision380531530#380531530#0(0"0(0#0#119"/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/embedded.mobileprovision8652771360#529"    cd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> "/Users/hrd_zemi/Library/MobileDevice/Provisioning Profiles/A0EC58BD-98D8-40C0-974A-8A0F42CCC865.mobileprovision" -o /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/hrd_zemi/Library/MobileDevice/Provisioning Profiles/C1C5DBD7-F9D3-4607-8CC4-22A4A6BF7179.mobileprovision" /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample.xcent
+s380527223.102082
+e380527223.116212
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+x/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample.xcent
+lSLF07#2@183"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample.xcent380527223#380527223#0(0"0(0#0#127"/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample.xcent8623014656#538"    cd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist -entitlements -format xml -o /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/gReaf.build/Debug-iphoneos/emptyExample.build/emptyExample.xcent0#
+
+CTouch /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app
+s380614458.633346
+e380614458.667808
+r1
+xTouch
+x/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app
+lSLF07#2@100"Touch /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app380614458#380614458#0(0"0(0#0#0"8633741408#367"    cd /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/build/Debug-iphoneos/emptyExample.app0#
+

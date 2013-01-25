@@ -1,0 +1,2 @@
+/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/testApp.mm: In member function 'virtual void testApp::update()':
+/Applications/of_preRelease_v007_iphone/apps/myApp/gReaf/src/testApp.mm:58: error: cannot convert 'ofPoint' to 'int' in assignment
